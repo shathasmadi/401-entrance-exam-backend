@@ -33,7 +33,7 @@ app.get('/data',getData)
 app.post('/data',addData)
 app.get('/favorite',getFavorite)
 app.delete('/favorite/:name',deleteFavorite)
-app.put('/favorite/:name',updateFavorite)
+app.put('/favorite/:_id',updateFavorite)
  
 app.listen(port) // kick start the express server to work
 

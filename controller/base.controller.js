@@ -61,9 +61,9 @@ const deleteFavorite=(req,res)=>{
 }
 
 const updateFavorite=(req,res)=>{
-    let {strDrink}=req.params;
+    let {idDrink}=req.params;
     let{strDrink,strDrinkThumb}=req.body;
-    dataModle.find({name:strDrink},(error,charData)=>{
+    dataModle.find({id:idDrink},(error,charData)=>{
         if(error){
             res.send(error);
 
