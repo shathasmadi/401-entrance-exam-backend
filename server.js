@@ -15,7 +15,7 @@ const {base,getData,addData,getFavorite,deleteFavorite,updateFavorite}=require('
 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://shatha:1521997@cluster0.tjunu.mongodb.net/401exam?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 
